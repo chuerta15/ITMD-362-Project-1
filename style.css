@@ -14,4 +14,20 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 */
 
 
+html{
+	font-family: font-family: "Lucida Bright", Georgia, serif; 
+	font-size: 1.125em; /*18/16px */
+	line-height: 1.2em; /*21.60/18 */
+	padding-left:  ;
+	padding-right:  ;
 	
+	
+}
+
+h1{
+	font-size: 2.5em;  /*45px/18px*/ 
+	text-align: center;
+	font-weight: bold;
+	line-height: 1.2em; /*54px/45px */
+	
+}

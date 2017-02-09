@@ -10,15 +10,19 @@
 <body>
   <main id="content">
     <h1>Napoles PC Services</h1>
+	  <figure>
+	    <img src="400dpiLogo.png" alt "Picture of the Label" style="width:300px;height:181px;">
+	  </figure>
 	  <ul>
 	    <li><a class="u-email" href="mailto:napolespcservices.us@gmail.com">napolespcservice.us@gmail.com</a></li>
-		<li class="p-tel">(773)555-5555</li>
+		<li><a class="p-tel">(773)555-5555</li>
 	  </ul>	
 	<h2>Welcome to Our Webpage.</h2>
 	  <p>
 		Our business provides great customer service and a quick response.
 		Our dedicated staff will help you step by step on any of your PC problems.
 	  </p>
+	<header   
 	<h2>Our Specialties</h2>
 	  <ul>
 	    <li>IT Consulting
@@ -28,7 +32,24 @@
 		<li>Hardware and Software Troubleshooting
 	  </ul>
     <h3>Please fill out your Information<h3>
-	
+	  <form action="#null" name="signup" method="get">
+	  <ol>
+	    <li id="input-name">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name"/>
+        </li>
+        <li id="input-email">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="you@example.com" pattern="^.+@.+$" />
+        </li>
+        <id="input-submit">
+          <input type="submit" name="submit" value="Submit"/>
+      </ol>
+    </form>
+    <ul>
   </main>
+    <footer>
+	  <p>Copyright Consuelo Huerta</p>
+	</footer>  
 </body>
 <html>
