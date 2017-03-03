@@ -18,16 +18,39 @@ html{
 	font-family: font-family: "Lucida Bright", Georgia, serif; 
 	font-size: 1.125em; /*18/16px */
 	line-height: 1.2em; /*21.60/18 */
-	padding-left:  ;
-	padding-right:  ;
-	
+	padding-left: 1em;
+	padding-right: 2em;	
+	background-color: #98A8DB;
+	color: #131F46;
 	
 }
 
-h1{
-	font-size: 2.5em;  /*45px/18px*/ 
-	text-align: center;
+h1{ 
+	font-size: 2em;  /*36px/18px*/ 
+	text-align: left;
 	font-weight: bold;
 	line-height: 1.2em; /*54px/45px */
+	padding-bottom: .5em; 
+	padding-top: .5em;
+}
+
+h2{
+	font-size: 1.44em ; /*26px/18px*/
+	line-height:  ;
+	font-weight: bold;
+	padding-top: 1em;
+	padding-bottom: .5em;	
+}
+
+h3{
+	font-size: 1.33em;  /*24px/18px*/
+	line-height:  ;
+	font-weight: bold;
+	padding-bottom: .5em;
+	padding-top: .5em;
+	
+}
+
+img{
 	
 }
