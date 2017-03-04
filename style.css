@@ -64,7 +64,11 @@ img{
 	
 }
 
-.top{
-	
+label,
+input{
+	display:block;
+	font-family: inherit;
+	line-height: inherit;
 }
+
 
