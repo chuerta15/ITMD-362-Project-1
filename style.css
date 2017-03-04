@@ -15,7 +15,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 html{
-	font-family: font-family: "Lucida Bright", Georgia, serif; 
+	font-family:"Lucida Bright", Georgia, serif; 
 	font-size: 1.125em; /*18/16px */
 	line-height: 1.2em; /*21.60/18 */
 	padding-left: 1em;
@@ -54,7 +54,7 @@ h3{
 
 img{
 	max-width: 100%;
-	max-height: auto;
+	max-height: inherit;
 	
 }
 
