@@ -6,16 +6,14 @@
   <meta name="viewport" content="initial-scale=1.0"/>
   <meta charset="utf-8"/>
   <link rel = "stylesheet" type= "text/css" href = "style.css"/>
+  <script src="scripts/main.js"></script>
+  <link rel="stylesheet" href="//basehold.it/24">
 </head>
 <body>
   <main id="content">
-	  <figure>
-	    <img src="400dpiLogo.png" alt "Picture of the Label" style="width:300px;height:181px;">
-	  </figure>
-	  <ul>
-	    <li><a class="u-email" href="mailto:napolespcservices.us@gmail.com">napolespcservice.us@gmail.com</a></li>
-		<li><a class="p-tel">(773)555-5555</li>
-	  </ul>	
+    <figure>
+	  <img src="400dpiLogo.png" alt "Picture of the Label" style="width:300px;height:181px;">
+	</figure>	
 	<h1>Welcome to Our Webpage.</h1>
 	  <p>
 		Our business provides great customer service and a quick response.
@@ -23,7 +21,7 @@
 	  </p>
 	<section class = "Specialities">   
 	<h2>Our Specialties</h2>
-	  <ul>
+	  <ul class = "listing">
 	    <li>IT Consulting
 		<li>Data Transfer 
 		<li>Hard Drive Recovery 
@@ -43,6 +41,10 @@
           <label for="email">Email</label>
           <input type="email" name="email" id="email" placeholder="you@example.com" pattern="^.+@.+$" />
         </li>
+		<li id="input-computer">
+		  <label for="computer">Type of Computer</label>
+		  <input type="text" name="type" id="computer"/> 
+		</li>
         <id="input-submit">
           <input type="submit" name="submit" value="Submit"/>
       </ol>
@@ -50,8 +52,8 @@
     <ul>
   </section>
   </main>
-    <footer>
-	  <p>Copyright Consuelo Huerta</p>
-	</footer>  
+  <footer>
+	<p>Copyright Consuelo Huerta</p>
+  </footer>  
 </body>
 <html>

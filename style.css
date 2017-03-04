@@ -22,21 +22,22 @@ html{
 	padding-right: 2em;	
 	background-color: #98A8DB;
 	color: #131F46;
+	background-image: url(//basehold.it/i/24); // 24px baseline
 	
 }
 
 h1{ 
-	font-size: 2em;  /*36px/18px*/ 
+	font-size: 1.78em;  /*32px/18px*/ 
 	text-align: left;
 	font-weight: bold;
-	line-height: 1.2em; /*54px/45px */
+	line-height: 1.2em; /*38.40px/32px */
 	padding-bottom: .5em; 
 	padding-top: .5em;
 }
 
 h2{
 	font-size: 1.44em ; /*26px/18px*/
-	line-height:  ;
+	line-height: 1.73em ;
 	font-weight: bold;
 	padding-top: 1em;
 	padding-bottom: .5em;	
@@ -52,5 +53,18 @@ h3{
 }
 
 img{
+	max-width: 100%;
+	max-height: auto;
 	
 }
+
+.listing{
+	list-style: circle;
+	padding-left: 2.22em;
+	
+}
+
+.top{
+	
+}
+
