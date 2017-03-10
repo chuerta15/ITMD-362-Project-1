@@ -14,19 +14,19 @@
     <figure>
 	  <img src="400dpiLogo.png" alt="Picture of the Label" style="width:300px;height:181px;">
 	</figure>	
-	<h1>Welcome to Our Webpage.</h1>
+    <h1>Welcome to Our Webpage.</h1>
 	  <p>
 		Our business provides great customer service and a quick response.
 		Our dedicated staff will help you step by step on any of your PC problems.
 	  </p>
 	<section class = "Specialities">   
-	<h2>Our Specialties</h2>
+    <h2>Our Specialties</h2>
 	  <ul class = "listing">
-	    <li>IT Consulting
-		<li>Data Transfer 
-		<li>Hard Drive Recovery 
-		<li>Computer and Portable Device Setup
-		<li>Hardware and Software Troubleshooting
+      <li>IT Consulting
+      <li>Data Transfer 
+      <li>Hard Drive Recovery 
+      <li>Computer and Portable Device Setup
+      <li>Hardware and Software Troubleshooting
 	  </ul>
 	</section>
 	<section class = "Survey">
@@ -34,28 +34,34 @@
 	  <form action="#null" name="signup" method="get">
 	  <ol>
 	    <li id="input-name">
-          <label for="name">Name</label>
-          <input type="text" name="name" id="name"/>
-        </li>
-        <li id="input-email">
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" placeholder="you@example.com" pattern="^.+@.+$" />
-        </li>
-		<li id="input-computer">
-		  <label for="computer">Type of Computer</label>
-		  <input type="text" name="computer" id="computer"/> 
-		</li>
-		<li id="input-description">
-		  <label for="description">Explain Your Problem</label>
-		  <input type="text" name="description" id="description"/>
-        <li id="input-submit">
+       <label for="name">Name</label>
+       <input type="text" name="name" id="name"/>
+      </li>
+      <li id="input-email">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="you@example.com" pattern="^.+@.+$" />
+      </li>
+      <li id="input-computer">
+        <label for="computer">Type of Computer</label>
+        <input type="text" name="computer" id="computer"/> 
+		  </li>
+      <li id="input-tel">
+        <label for="tel">Telephone Number</label>
+        <input type="tel" name="tel" id="tel"/> 
+      <li id="input-description">
+        <section id="Description"/>
+          <p>Please Describe your Problem</p>
+          <textarea cols=80 name=comments maxlength=200></textarea>
+      <li id="input-submit">
           <input type="submit" name="submit" value="Submit"/>
-      </ol>
+    </ol>
     </form>
   </section>
   </main>
   <footer>
     <p>Copyright Consuelo Huerta</p>
-  </footer>  
+  </footer>
+  <link src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link type="text/javascript" src="./site.js"></script>
 </body>
 </html>
