@@ -23,8 +23,9 @@ html{
 	background-color: #98A8DB;
 	color: #131F46;
 	/*background-image: url(//basehold.it/i/24); // 24px baseline*/
-	
 }
+
+
 
 h1{ 
 	font-size: 1.78em;  /*32px/18px*/ 
@@ -64,26 +65,36 @@ img{
 	
 }
 
+
 label,
 input{
 	display: block;
 	font-family: inherit;
 	line-height: inherit;
   padding-top: .5em;
+  text-align: left;
+  
 
 }
 
 
 
 input{
+
 	color: #7F75A6;
 	padding: .5em;
 }
 
 textarea{
-  width: 600px;
-  height: 120px;
+
+  width: 22.5em; /*360px*/
+  height: 7.5em; /*120px*/
   font-family: inherit;
   line-height: inherit;
+  padding-top: .5em;
+  
 }
 
+@media screen and (max-width: 480px){
+  
+}
